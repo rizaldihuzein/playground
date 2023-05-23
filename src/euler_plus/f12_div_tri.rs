@@ -26,7 +26,7 @@ fn f(sum:&mut Vec<u64>, num_fac:&mut Vec<u64>, n_min:u64) -> u64{
     if index > 0 && num_fac[index] > n_min{
         index = binary_search_right_most(num_fac, n_min);
     }else{
-        let mut new_fac:u64 = 0;
+        let mut new_fac:u64;
         while num_fac[index] <= n_min {
             sum.push(index as u64+2+sum[index]);
             new_fac = count_factor(index as u64+2+sum[index]);
@@ -64,7 +64,7 @@ fn binary_search_right_most(slice:&Vec<u64>, n_min:u64)->usize{
     pos+1
 }
 
-fn main() {
+pub fn f12() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

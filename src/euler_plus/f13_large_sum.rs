@@ -16,7 +16,6 @@ fn f(nums:&Vec<String>) -> String{
             i_len = result.len();
         }
         carry = 0;
-        current = 0;
         while k < i_len{
             if result.len()<k+1{
                 result.push(limit_char);
@@ -39,12 +38,12 @@ fn f(nums:&Vec<String>) -> String{
     result.reverse();
     let result_str = match str::from_utf8(&result) {
         Ok(v) => v,
-        Err(e) => "",
+        Err(_e) => "",
     };
     result_str[0..10].to_string()
 }
 
-fn main() {
+pub fn f13() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

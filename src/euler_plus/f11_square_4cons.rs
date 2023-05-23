@@ -9,7 +9,7 @@ use std::io::{self, BufRead};
 // 30 2017
 fn f(grid:&Vec<Vec<i32>>)-> i32 {
     let mut max:i32 = 0;
-    let mut grid_mult = 0;
+    let mut grid_mult: i32;
     for i in 0..20{
         for j in 0..17{
             // vertical
@@ -53,7 +53,7 @@ fn f(grid:&Vec<Vec<i32>>)-> i32 {
     max
 }
 
-fn main() {
+pub fn f11() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

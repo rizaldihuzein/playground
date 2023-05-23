@@ -10,7 +10,7 @@ fn palindrome_check(mut a:i32)->bool{
             return true;
         }
         half*=10;
-        half+=(a%10);
+        half+= a%10;
         a/=10;
         if half > 0 && a/half == 10{
             a/=10;
@@ -22,7 +22,7 @@ fn palindrome_check(mut a:i32)->bool{
 fn is_largest_set(n:i32)->i32{
     let mut ans:i32 = 101101;
     let mut num:i32 = ans;
-    let mut iter:i32 = 101;
+    let mut iter:i32;
     while num < n{
         if !palindrome_check(num){
             num+=1;
@@ -42,7 +42,7 @@ fn is_largest_set(n:i32)->i32{
     ans
 }
 
-fn main() {
+pub fn f4() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

@@ -30,7 +30,7 @@ fn calc_greatest(n:i32,k:i32,num:&String) -> u64{
     max_score
 }
 
-fn main() {
+pub fn f8() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

@@ -32,7 +32,7 @@ fn largest_prime_factor(n:&mut u64)->u64{
     l_prime  
 }
 
-fn main() {
+pub fn f3() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

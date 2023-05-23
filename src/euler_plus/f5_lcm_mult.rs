@@ -17,11 +17,11 @@ fn gcd(mut a:i32, mut b:i32)->i32{
 }
 
 // lcm calculation
-fn lcm(mut a:i32, mut b:i32)->i32{
+fn lcm(a:i32, b:i32)->i32{
     a*b/gcd(a,b)
 }
 
-fn main() {
+pub fn f5() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

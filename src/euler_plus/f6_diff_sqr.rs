@@ -1,6 +1,6 @@
 use std::io::{self, BufRead};
 
-fn main() {
+pub fn f6() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

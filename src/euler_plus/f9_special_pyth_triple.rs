@@ -11,8 +11,8 @@ use std::io::{self, BufRead};
 
 fn get_mult_of_pith(n:i64)->i64{
     let mut res:i64 = -1;
-    let mut b:i64 = 0;
-    let mut c:i64 = 0;
+    let mut b:i64;
+    let mut c:i64;
     for a in 1..=n/3{
         b = (n*n - 2*n*a) / (2*n-2*a);
         c = n-a-b;
@@ -23,7 +23,7 @@ fn get_mult_of_pith(n:i64)->i64{
     res
 }
 
-fn main() {
+pub fn f9() {
     let stdin = io::stdin();
     let mut stdin_iterator = stdin.lock().lines();
 

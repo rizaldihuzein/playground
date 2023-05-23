@@ -1,0 +1,13 @@
+pub mod f1_fizz_buzz_mult;
+pub mod f2_even_fib_sum;
+pub mod f3_large_prime_factor;
+pub mod f4_palin;
+pub mod f5_lcm_mult;
+pub mod f6_diff_sqr;
+pub mod f7_get_prime_nth;
+pub mod f8_sum_of_consec;
+pub mod f9_special_pyth_triple;
+pub mod f10_sum_of_primes;
+pub mod f11_square_4cons;
+pub mod f12_div_tri;
+pub mod f13_large_sum;
