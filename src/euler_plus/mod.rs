@@ -11,3 +11,4 @@ pub mod f10_sum_of_primes;
 pub mod f11_square_4cons;
 pub mod f12_div_tri;
 pub mod f13_large_sum;
+pub mod f14_longest_collatz;

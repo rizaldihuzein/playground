@@ -13,6 +13,7 @@ use crate::euler_plus::f10_sum_of_primes::*;
 use crate::euler_plus::f11_square_4cons::*;
 use crate::euler_plus::f12_div_tri::*;
 use crate::euler_plus::f13_large_sum::*;
+use crate::euler_plus::f14_longest_collatz::*;
 
 fn main() {
     f1();
@@ -28,4 +29,5 @@ fn main() {
     f11();
     f12();
     f13();
+    f14();
 }
