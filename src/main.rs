@@ -1,33 +1,21 @@
 mod euler_plus;
 
-use crate::euler_plus::f1_fizz_buzz_mult::*;
-use crate::euler_plus::f2_even_fib_sum::*;
-use crate::euler_plus::f3_large_prime_factor::*;
-use crate::euler_plus::f4_palin::*;
-use crate::euler_plus::f5_lcm_mult::*;
-use crate::euler_plus::f6_diff_sqr::*;
-use crate::euler_plus::f7_get_prime_nth::*;
-use crate::euler_plus::f8_sum_of_consec::*;
-use crate::euler_plus::f9_special_pyth_triple::*;
-use crate::euler_plus::f10_sum_of_primes::*;
-use crate::euler_plus::f11_square_4cons::*;
-use crate::euler_plus::f12_div_tri::*;
-use crate::euler_plus::f13_large_sum::*;
-use crate::euler_plus::f14_longest_collatz::*;
+use crate::euler_plus::*;
 
 fn main() {
-    f1();
-    f2();
-    f3();
-    f4();
-    f5();
-    f6();
-    f7();
-    f8();
-    f9();
-    f10();
-    f11();
-    f12();
-    f13();
-    f14();
+    f1_fizz_buzz_mult::f1();
+    f2_even_fib_sum::f2();
+    f3_large_prime_factor::f3();
+    f4_palin::f4();
+    f5_lcm_mult::f5();
+    f6_diff_sqr::f6();
+    f7_get_prime_nth::f7();
+    f8_sum_of_consec::f8();
+    f9_special_pyth_triple::f9();
+    f10_sum_of_primes::f10();
+    f11_square_4cons::f11();
+    f12_div_tri::f12();
+    f13_large_sum::f13();
+    f14_longest_collatz::f14();
+    f15_lattice_path::f15();
 }
