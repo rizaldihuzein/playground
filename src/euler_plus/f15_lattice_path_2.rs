@@ -1,9 +1,12 @@
 use std::io::{self, BufRead};
 
-// combinatory
-// C(n,k) = n!/(k!*(n-k)!)
-// where n = a+b
-// wrong answer due to multiplication limitation?
+/*
+    combinatory
+    https://en.wikipedia.org/wiki/Lattice_path#Combinations_and_NE_lattice_paths 
+    C(n,k) = n!/(k!*(n-k)!)
+    where n = a+b
+    wrong answer due to multiplication limitation?
+*/
 
 const MODUL:isize = 1000000007;
 
