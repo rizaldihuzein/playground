@@ -21,4 +21,5 @@ fn main() {
     f14_longest_collatz::f14();
     f15_lattice_path::f15();
     find_digit::find_digit();
+    f16_big_num_sum_digit::f16();
 }

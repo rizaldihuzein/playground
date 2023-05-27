@@ -14,3 +14,4 @@ pub mod f13_large_sum;
 pub mod f14_longest_collatz;
 pub mod f15_lattice_path;
 pub mod f15_lattice_path_2;
+pub mod f16_big_num_sum_digit;
