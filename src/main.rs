@@ -1,6 +1,8 @@
 mod euler_plus;
+mod random_stuff;
 
-use crate::euler_plus::*;
+use random_stuff::find_digit;
+use euler_plus::*;
 
 fn main() {
     f1_fizz_buzz_mult::f1();
@@ -18,4 +20,5 @@ fn main() {
     f13_large_sum::f13();
     f14_longest_collatz::f14();
     f15_lattice_path::f15();
+    find_digit::find_digit();
 }
