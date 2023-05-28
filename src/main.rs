@@ -24,5 +24,6 @@ fn main() {
     f16_big_num_sum_digit::f16();
     f17_digit_to_spell::f17();
     max_xor::max_xor();
-    f18_max_path_sum::f18()
+    f18_max_path_sum::f18();
+    f19_count_1_sunday::f19();
 }
