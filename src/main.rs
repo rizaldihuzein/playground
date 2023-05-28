@@ -22,4 +22,5 @@ fn main() {
     f15_lattice_path::f15();
     find_digit::find_digit();
     f16_big_num_sum_digit::f16();
+    f17_digit_to_spell::f17();
 }
