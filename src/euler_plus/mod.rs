@@ -16,3 +16,4 @@ pub mod f15_lattice_path;
 pub mod f15_lattice_path_2;
 pub mod f16_big_num_sum_digit;
 pub mod f17_digit_to_spell;
+pub mod f18_max_path_sum;
