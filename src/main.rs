@@ -1,7 +1,7 @@
 mod euler_plus;
 mod random_stuff;
 
-use random_stuff::find_digit;
+use random_stuff::*;
 use euler_plus::*;
 
 fn main() {
@@ -23,4 +23,5 @@ fn main() {
     find_digit::find_digit();
     f16_big_num_sum_digit::f16();
     f17_digit_to_spell::f17();
+    max_xor::max_xor();
 }
