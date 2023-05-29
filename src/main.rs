@@ -27,4 +27,5 @@ fn main() {
     f18_max_path_sum::f18();
     f19_count_1_sunday::f19();
     f20_factorial_sum::f20();
+    beautiful_days::beautiful_days();
 }
