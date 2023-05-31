@@ -19,3 +19,4 @@ pub mod f17_digit_to_spell;
 pub mod f18_max_path_sum;
 pub mod f19_count_1_sunday;
 pub mod f20_factorial_sum;
+pub mod f21_amicable_num;
