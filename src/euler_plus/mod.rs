@@ -20,3 +20,4 @@ pub mod f18_max_path_sum;
 pub mod f19_count_1_sunday;
 pub mod f20_factorial_sum;
 pub mod f21_amicable_num;
+pub mod f22_name_score;

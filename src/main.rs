@@ -30,4 +30,5 @@ fn main() {
     beautiful_days::beautiful_days();
     f21_amicable_num::f21();
     service_lane::service_lane();
+    f22_name_score::f22();
 }
