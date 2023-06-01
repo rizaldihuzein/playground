@@ -1,33 +1,30 @@
-use std::io::{self, BufRead};
+use std::{io::{self, BufRead}};
 use crate::general::divisor_sum::get_factor_sum;
 
-fn f(n:u64, vec_sum:&mut Vec<u64>)->u64{
-    let mut sum=0_u64;
+fn f(n:u64, vec_sum:&mut Vec<u64>)->&str{
+    if n > 28123{
+        return "YES";
+    }
     let mut dn;
-    for i in 1..=n as usize{
-        if vec_sum[i] == 0{
+    for i in 1..=(n/2) as usize{
+        dn = vec_sum[i];
+        if dn == 0{
             dn = get_factor_sum(i as u64);
             vec_sum[i] = dn;
         }
-        if i as u64 == vec_sum[i]{
+        if dn <= i as u64 {
             continue;
         }
-        dn = 0;
-        let index = vec_sum[i] as usize;
-        if index <= vec_sum.len(){
-            dn = vec_sum[index];
-        }
+        dn = vec_sum[n as usize-i];
         if dn == 0{
-            dn = get_factor_sum(vec_sum[i]);
+            dn = get_factor_sum(n-i as u64);
+            vec_sum[n as usize-i] = dn;
         }
-        if index <= vec_sum.len(){
-            vec_sum[index] = dn;
-        }
-        if i as u64 == dn{
-            sum+=i as u64
+        if dn > (n-i as u64){
+            return "YES";
         }
     }
-    sum
+    "NO"
 }
 
 fn main() {
@@ -44,6 +41,6 @@ fn main() {
     }
 }
 
-pub fn f21() {
+pub fn f23() {
     main();
 }

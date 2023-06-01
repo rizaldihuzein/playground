@@ -1,5 +1,6 @@
 mod euler_plus;
 mod random_stuff;
+mod general;
 
 use random_stuff::*;
 use euler_plus::*;
@@ -31,4 +32,5 @@ fn main() {
     f21_amicable_num::f21();
     service_lane::service_lane();
     f22_name_score::f22();
+    f23_abundant_sum::f23();
 }
