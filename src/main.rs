@@ -33,4 +33,5 @@ fn main() {
     service_lane::service_lane();
     f22_name_score::f22();
     f23_abundant_sum::f23();
+    f24_lexicograph_order::f24();
 }
