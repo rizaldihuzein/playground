@@ -17,7 +17,6 @@ pub fn gen_fibonacci(n:u64,vec:&mut Vec<u64>){
 // log10(r_approx_fib_n) = n*log10(1+sqrt(5)]/2) - 1/2*log10(5)
 pub fn fib_digit(n:u64)->u64{
     let sqrt5 = 5_f64.sqrt();
-    let log10_sqrt5 = sqrt5.log10();
     let tetha = (1_f64+sqrt5)/2_f64;
     ((n as f64 * tetha.log10()) - (5_f64.log10()/2_f64)).ceil() as u64
 }
