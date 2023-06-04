@@ -34,4 +34,5 @@ fn main() {
     f22_name_score::f22();
     f23_abundant_sum::f23();
     f24_lexicograph_order::f24();
+    f25_n_digit_fibb::f25();
 }

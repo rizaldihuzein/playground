@@ -23,3 +23,4 @@ pub mod f21_amicable_num;
 pub mod f22_name_score;
 pub mod f23_abundant_sum;
 pub mod f24_lexicograph_order;
+pub mod f25_n_digit_fibb;
