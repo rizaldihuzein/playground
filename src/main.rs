@@ -36,4 +36,5 @@ fn main() {
     f24_lexicograph_order::f24();
     f25_n_digit_fibb::f25();
     angry_prof::angry_prof();
+    f26_reciprocal_cycle::f26();
 }
