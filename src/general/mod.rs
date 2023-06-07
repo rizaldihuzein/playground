@@ -3,3 +3,4 @@ pub mod gen_factorial;
 pub mod fibonacci;
 pub mod search;
 pub mod playground_macro;
+pub mod prime;

@@ -37,4 +37,5 @@ fn main() {
     f25_n_digit_fibb::f25();
     angry_prof::angry_prof();
     f26_reciprocal_cycle::f26();
+    f27_quadratic_prime::f27();
 }
