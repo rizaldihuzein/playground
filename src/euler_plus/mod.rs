@@ -26,3 +26,5 @@ pub mod f24_lexicograph_order;
 pub mod f25_n_digit_fibb;
 pub mod f26_reciprocal_cycle;
 pub mod f27_quadratic_prime;
+pub mod f30_digit_sum_exp;
+pub mod f29_unique_exponent;

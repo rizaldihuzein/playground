@@ -4,3 +4,4 @@ pub mod fibonacci;
 pub mod search;
 pub mod playground_macro;
 pub mod prime;
+pub mod power;

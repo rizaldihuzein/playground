@@ -1,11 +1,13 @@
 mod euler_plus;
-mod random_stuff;
 mod general;
+mod random_stuff;
 
 use random_stuff::*;
 use euler_plus::*;
 
 fn main() {
+    f30_digit_sum_exp::f30();
+    f29_unique_exponent::f29();
     f1_fizz_buzz_mult::f1();
     f2_even_fib_sum::f2();
     f3_large_prime_factor::f3();
